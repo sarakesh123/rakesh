@@ -36,19 +36,11 @@ int* createInt() {
 int main() {
 
     const char *str = createString();
-
     std::cout << "string = " << str << std::endl;
-
-
-
     int *ip = createInt();
-
     std::cout << "integer = " << *ip << std::endl;
 
-
-
     delete ip; // free dynamically allocated memory
-
 }
 
 
