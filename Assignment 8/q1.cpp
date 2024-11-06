@@ -41,6 +41,6 @@ void derived::print(){
 }
 
 int main(){
-        derived d {10, {10,2.5,8.9}, {true,false}};
+        derived d {10, {1.5,2.5,3.5}, {true,false}};
         d.print();
 }
