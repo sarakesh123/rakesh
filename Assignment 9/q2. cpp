@@ -1,0 +1,21 @@
+ #include<iostream>
+ #include<fstream>
+ #include<string>
+ 
+ using namespace std;
+ int main(){
+ 	ifstream inputfile("input.txt");
+ 	int var,sum=0;
+ 	char ch;
+ 	while(inputfile.get(ch)){
+ 		unsigned char s=static_cast<unsigned char>(ch);
+ 		var=static_cast<int>(s);
+ 		sum=sum+var;
+ 	}
+ 	cout<<"so the sum is:"<<sum<<endl;
+ 	inputfile.close();
+ 	return 0;
+ }
+ 
+
+ 
