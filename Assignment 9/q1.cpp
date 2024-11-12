@@ -18,7 +18,7 @@
  		output<<ch<<endl;
  	}
  	
- 	cout<<"file copied successfully"<<endl;
+ 	cout<<"file has been copied successfully"<<endl;
  	return true;
  }
  
